@@ -1,0 +1,56 @@
+.flex-container {
+	display: flex;
+	height: 300px;
+	align-items: baseline;
+	background-color: DodgerBlue;
+	>div {
+		border-radius: 20px;
+		background-color: white;
+		width: 200px;
+		height: 700px;
+		align-items: center;
+		position: relative;
+		left: 150px;
+		margin: 10px;
+		text-align: center;
+		line-height: 30px;
+		font-size: 30px;
+	}
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+li {
+	float: right;
+	a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+}
+.card {
+	button {
+		font-size: 18px;
+		text-decoration: none;
+		border: DodgerBlue 1px solid;
+		padding: 10px 20px;
+		border-radius: 10px;
+		&:hover {
+			background-color: DodgerBlue;
+			color: white;
+		}
+	}
+}
+.hi {
+	&:hover {
+		-ms-transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
+	}
+}
+
